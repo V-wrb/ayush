@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, ChatJoinRequestHandler, ContextTypes
 
-TOKEN = "8039094661:AAHyQcOEXnTl6aXGCAd-KghOJyosKbMrs0U"  # Aapka diya hua token
+TOKEN = "8419144718:AAFrUyqAhqIIHrc2SfoZREwMdazWdhfTiUE"  # Aapka diya hua token
 
 async def approve(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.chat_join_request.from_user.id
